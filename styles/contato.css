@@ -1,0 +1,99 @@
+body{
+    background: #fff;
+    margin: 0px;
+}
+header{
+    background-color: beige;
+}
+
+nav{
+    background: #e6e6e1;
+    padding: 5px 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 20px;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+.sec_titulo{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: chocolate;
+}
+
+.sec_form{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 100%;
+}
+
+.est_label{
+    color: chocolate;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.estilo_texto{
+    width: 100%;
+    height: 35px;
+    margin: 15px 0px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.altura_msg{
+    height: 150px;
+}
+
+.botao_enviar{
+    background: chocolate;
+    border: 1px solid #000;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    /* font-weight: bold; */ 
+    color: white;
+}
+
+.botao_enviar:hover{
+    background: rgb(255, 106, 0);
+    cursor: pointer;
+}
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: chocolate;
+    z-index: 100;
+
+}
