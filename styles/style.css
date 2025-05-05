@@ -38,6 +38,7 @@ a:hover{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    color: chocolate;
 }
 
 figure img{
@@ -73,12 +74,13 @@ figure img{
     font-weight: bold;
     text-align: center;
     margin: 2.5% 0%;
+    color: chocolate;
 }
 
 .rodape{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-
+    color: chocolate;
 }
 
